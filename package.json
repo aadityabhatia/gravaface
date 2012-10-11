@@ -1,0 +1,35 @@
+{
+  "name": "gravaface",
+  "version": "0.0.1",
+  "description": "Download profile pic from Gravatar to ~/.face",
+  "main": "gravatar.js",
+  "preferGlobal": true,
+  "bin": {
+    "gravaface": "./bin/gravaface"
+  },
+  "scripts": {
+    "prepublish": "coffee -c gravaface.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aadityabhatia/gravaface.git"
+  },
+  "keywords": [
+    "gravatar",
+    "face",
+    "profile",
+    "picture",
+    "gnome",
+    "avatar"
+  ],
+  "author": "Aaditya Bhatia <aadityabhatia@gmail.com>",
+  "licenses": [{
+    "type": "Apache",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+  }],
+  "dependencies": {
+    "commander": "~1.0",
+    "request": "~2.0"
+  }
+}
+
