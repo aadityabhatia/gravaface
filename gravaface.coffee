@@ -19,7 +19,7 @@ url = "http://www.gravatar.com/avatar/#{hash}?s=#{program.size or DEFAULT_SIZE}&
 
 request = require 'request'
 fs = require 'fs'
-request(picUrl).pipe(fs.createWriteStream(program.destination))
+request(url).pipe(fs.createWriteStream(program.destination))
 
 console.log "Success!"
 

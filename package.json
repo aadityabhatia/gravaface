@@ -1,6 +1,6 @@
 {
   "name": "gravaface",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Download profile pic from Gravatar to ~/.face",
   "main": "gravatar.js",
   "preferGlobal": true,
@@ -28,8 +28,8 @@
     "url": "http://www.apache.org/licenses/LICENSE-2.0"
   }],
   "dependencies": {
-    "commander": "~1.0",
-    "request": "~2.0"
+    "commander": "~1",
+    "request": "~2"
   }
 }
 
